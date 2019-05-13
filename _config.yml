@@ -1,3 +1,4 @@
+theme: jekyll-theme-slate
 collections:
   comments:
     output: true
