@@ -1,3 +1,5 @@
 collections:
-  - comments
-  - environment
+  comments:
+    output: true
+  environment:
+    output: true
