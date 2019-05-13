@@ -4,7 +4,7 @@
 <h1>Comments</h1>
 {% for document in site.comments %}
 <h2>
-  <a href="{{ document.url }}">
+  <a href="{{ document.url | relative_url }}">
     {{ document.code }}: {{ document.title }}
   </a>
 </h2>
@@ -14,7 +14,7 @@
 <h1>Environment</h1>
 {% for document in site.environment %}
 <h2>
-  <a href="{{ document.url }}">
+  <a href="{{ document.url | relative_url }}">
     {{ document.code }}: {{ document.title }}
   </a>
 </h2>
