@@ -1,6 +1,7 @@
 ---
 # Front matter is required for Liquid tags to be parsed.
 ---
+<h1>Comments</h1>
 {% for document in site.comments %}
 <h2>
   <a href="{{ document.url }}">
@@ -10,6 +11,7 @@
 <p>{{ document.content | markdownify }}</p>
 {% endfor %}
 
+<h1>Environment</h1>
 {% for document in site.environment %}
 <h2>
   <a href="{{ document.url }}">
