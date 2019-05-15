@@ -3,14 +3,12 @@ layout: default
 ---
 {% include_relative intro.md %}
 
-# Comments
-{% for document in site.comments %}
-## [{{ document.code }}: {{ document.title }}]({{ document.url | relative_url }})
-{{ document.content | markdownify }}
+{% for collection in site.collections %}
+{% unless collection.label == 'posts' %}
+# {{ collection.label | capitalize }}
+{% for doc in collection.docs %}
+## [{{ doc.code }}: {{ doc.title }}]({{ doc.url | relative_url }})
+{{ doc.content | markdownify }}
 {% endfor %}
-
-# Environment
-{% for document in site.environment %}
-## [{{ document.code }}: {{ document.title }}]({{ document.url | relative_url }})
-{{ document.content | markdownify }}
+{% endunless %}
 {% endfor %}
