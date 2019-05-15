@@ -1,4 +1,4 @@
-theme: jekyll-theme-slate
+theme: minima
 collections:
   comments:
     output: true
