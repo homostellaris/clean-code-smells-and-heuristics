@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: homepage
 ---
 {% include_relative intro.md %}
 
