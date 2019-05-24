@@ -3,6 +3,10 @@ collections:
     output: true
   environment:
     output: true
+  functions:
+    output: true
+  general:
+    output: true
 defaults:
   -
     scope:
