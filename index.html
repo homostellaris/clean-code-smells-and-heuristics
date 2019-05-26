@@ -1,0 +1,16 @@
+---
+layout: index
+---
+{% include_relative intro.html %}
+
+{% for collection in site.collections %}
+{% unless collection.label == 'posts' %}
+<h1>{{ collection.label | capitalize }}</h1>
+{% for doc in collection.docs %}
+<h2>
+  <a class="smell-link" href="{{ doc.url | relative_url }}">{{ doc.code }}: {{ doc.title }}</a>
+</h2>
+{{ doc.content | markdownify }}
+{% endfor %}
+{% endunless %}
+{% endfor %}
