@@ -1,6 +1,7 @@
 ---
 code: G7
 title: Base Classes Depending on Their Derivatives
+order: 7
 ---
 The most common reason for partitioning concepts into base and derivative classes is so that the higher level base class concepts can be independent of the lower level derivative class concepts.
 Therefore, when we see base classes mentioning the names of their derivatives, we suspect a problem.

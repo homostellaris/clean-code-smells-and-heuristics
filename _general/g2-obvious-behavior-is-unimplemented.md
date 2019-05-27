@@ -1,6 +1,7 @@
 ---
 code: G2
 title: Obvious Behavior Is Unimplemented
+order: 2
 ---
 Following "[The Principle of Least Surprise](https://en.wikipedia.org/wiki/Principle_of_least_astonishment)", any function of class should implement the behaviors that another programmer could reasonably expect. For example, consider a function that translates the name of a day to an `enum` that represents the day.
 

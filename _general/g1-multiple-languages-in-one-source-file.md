@@ -1,6 +1,7 @@
 ---
 code: G1
 title: Multiple Languages in One Source File
+order: 1
 ---
 Today's modern programming environments make it possible to put many different languages into a single source file.
 For example, a Java source file might contains snippets of XML, HTML, YAML, JavaDoc, English, JavaScript, and so on.

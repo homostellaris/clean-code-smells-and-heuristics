@@ -1,6 +1,7 @@
 ---
 code: C3
 title: Redundant Comment
+order: 3
 ---
 A comment is redundant if it describes something that adequately describes itself. For example:
 

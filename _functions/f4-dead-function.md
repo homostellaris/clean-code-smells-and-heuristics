@@ -1,6 +1,7 @@
 ---
 code: F4
 title: Dead Function
+order: 4
 ---
 Methods that are never called should be discarded.
 Keeping dead code around is wasteful.

@@ -1,6 +1,7 @@
 ---
 code: G6
 title: Code at Wrong Level of Abstraction
+order: 6
 ---
 It is important to create abstractions that separate higher level general concepts from lower level detailed concepts.
 Sometimes we do this by creating abstract classes to hold the higher level concepts and derivatives to hold the lower level concepts,

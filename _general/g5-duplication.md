@@ -1,6 +1,7 @@
 ---
 code: G5
 title: Duplication
+order: 5
 ---
 This is one of the most important rules in this book, and you should take it very seriously.
 Veritually every author who writes about software design mentions this rule.

@@ -1,6 +1,7 @@
 ---
 code: G9
 title: Dead Code
+order: 9
 ---
 Dead code is code that isn't executed. You find it in the body of an `if` statement that checks for a condition that can't happen.
 You find it in the `catch` block of a `try` that never `throws`.

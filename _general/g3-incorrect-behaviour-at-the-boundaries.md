@@ -1,6 +1,7 @@
 ---
 code: G3
 title: Incorrect Behavior at the Boundaries
+order: 3
 ---
 It seems obvious to say that code should behave correctly.
 The problem is that we seldom realize just how complicated correct behavior is.

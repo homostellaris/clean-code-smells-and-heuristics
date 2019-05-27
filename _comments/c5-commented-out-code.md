@@ -1,6 +1,7 @@
 ---
 code: C5
 title: Commented-Out Code
+order: 5
 ---
 It makes me crazy to see stretches of code that are commented out.
 Who knows how old it is? Who knows whether or not it's meaningful?

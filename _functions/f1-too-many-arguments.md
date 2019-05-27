@@ -1,6 +1,7 @@
 ---
 code: F1
 title: Too Many Arguments
+order: 1
 ---
 Functions should have a small number of arguments.
 No argument is best, followed by one, two, and three.

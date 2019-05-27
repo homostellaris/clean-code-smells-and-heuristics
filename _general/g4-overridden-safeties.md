@@ -1,6 +1,7 @@
 ---
 code: G4
 title: Overridden Safeties
+order: 4
 ---
 Chernobyl melted down because the plan manager overrode each of the safety mechanisms one by one.
 The safeties were making it inconvenient to run an experiment.

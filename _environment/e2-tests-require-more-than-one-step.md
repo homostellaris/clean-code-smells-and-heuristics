@@ -1,6 +1,7 @@
 ---
 code: E2
 title: Tests Require More Than One Step
+order: 2
 ---
 You should be able to run *all* the unit tests with just one command.
 In the best case you can run all the tests by clicking one button in your IDE.

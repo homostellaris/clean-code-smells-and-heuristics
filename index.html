@@ -6,12 +6,13 @@ layout: index
 {% for collection in site.collections %}
 {% unless collection.label == 'posts' %}
 <h1>{{ collection.label | capitalize }}</h1>
-{% for doc in collection.docs %}
+{% assign ordered_smells = collection.docs | sort: 'order' %}
+{% for smell in ordered_smells %}
 <div class="smell">
     <h2>
-        <a class="smell-link" href="{{ doc.url | relative_url }}">{{ doc.code }}: {{ doc.title }}</a>
+        <a class="smell-link" href="{{ smell.url | relative_url }}">{{ smell.code }}: {{ smell.title }}</a>
     </h2>
-    {{ doc.content | markdownify }}
+    {{ smell.content | markdownify }}
 </div>
 {% endfor %}
 {% endunless %}

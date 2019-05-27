@@ -1,6 +1,7 @@
 ---
 code: G8
 title: Too Much Information
+order: 8
 ---
 Well-defined modules have very small interfaces that allow you to do a lot with a little.
 Poorly defined modules have wide and deep interfaces that force you to use many different gestures to get simple things done.

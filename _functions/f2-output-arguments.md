@@ -1,6 +1,7 @@
 ---
 code: F2
 title: Output Arguments
+order: 2
 ---
 Output arguments are counterintuitive.
 Readers expect arguments to be inputs, not outputs.
