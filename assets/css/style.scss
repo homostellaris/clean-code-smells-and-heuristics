@@ -2,6 +2,11 @@
 ---
 
 @import "{{ site.theme }}";
+.copy-markdown {
+  position: relative;
+  top: 3px;
+}
+
 .copy-markdown-button {
   padding: 0;
   margin: 0 0.375em;
@@ -9,6 +14,26 @@
   background-color: transparent;
   width: 25px;
   height: 25px;
-  position: relative;
-  top: 3px;
+}
+
+.copy-markdown-message {
+  font-size: 0.7em;
+  color: #0366d6;
+  vertical-align: top;
+  opacity: 0;
+
+  .link-copied & {
+    animation-duration: 3s;
+    animation-name: fadeout;
+  }
+
+  @keyframes fadeout {
+    from {
+      opacity: 1;
+    }
+
+    to {
+      opacity: 0;
+    }
+  }
 }
