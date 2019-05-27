@@ -51,7 +51,7 @@ function createCopyMarkdownElement(markdown) {
   copyMarkdownButton.setAttribute('title', 'Copies a markdown link to the clipboard.');
 
   const copyMarkdownIcon = document.createElement('img');
-  copyMarkdownIcon.setAttribute('src', '/assets/images/markdown.png');
+  copyMarkdownIcon.setAttribute('src', './assets/images/markdown.png');
   copyMarkdownIcon.setAttribute('alt', 'copy markdown icon');
 
   const copyMarkdownMessage = document.createElement('span');
