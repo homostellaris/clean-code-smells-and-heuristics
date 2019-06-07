@@ -7,6 +7,12 @@ collections:
     output: true
   general:
     output: true
+  java:
+    output: true
+  names:
+    output: true
+  tests:
+    output: true
 defaults:
   -
     scope:
