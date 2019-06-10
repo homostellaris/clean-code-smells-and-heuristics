@@ -19,4 +19,6 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "smell"
+description: "A linkable reference of code smells and heuristics for better code reviews."
+google_analytics: UA-141700461-1
 title: "Clean Code: Smells and Heuristics"
