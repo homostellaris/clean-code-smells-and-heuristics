@@ -16,9 +16,9 @@ public int calculateWeeklyPay(boolean overtime) {
   int tenthsWorked = getTenthsWorked();
   int straightTime = Math.min(400, tenthsWorked);
   int overTime = Math.max(0, tenthsWorked - straightTime);
-  int straightPay = straighttime * tenthRate;
+  int straightPay = straightTime * tenthRate;
   double overtimeRate = overtime ? 1.5 : 1.0 * tenthRate;
-  int overtimePay = (int)Math.round(overTime*overtimeRate);
+  int overtimePay = (int)Math.round(overTime * overtimeRate);
   return straightPay + overtimePay;
 }
 ```

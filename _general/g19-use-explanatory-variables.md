@@ -5,7 +5,7 @@ order: 19
 ---
 Kent Beck wrote about this in his great book *Smalltalk Best Practice Patterns*[^8] and again more recently in his equally great book *Implementation Patterns*[^9].
 One of the more powerful ways to make a program readable is to break the calculations up into intermediate values that are held in variables with meaningful names.
-Consider the following example from Fitnesse:
+Consider the following example from FitNesse:
 
 ```java
   Matcher match = headerPattern.matcher(line);

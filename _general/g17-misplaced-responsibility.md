@@ -12,7 +12,7 @@ Or maybe in the `Circle` class?
 The principle of least surprise comes into play here.
 Code should be placed where a reader would naturally expect it to be.
 The `PI` constant should go where the trig functions are declared.
-The `OVERRTIME_RATE` constant should be declared in the `HourlyPayCalculator` class.
+The `OVERTIME_RATE` constant should be declared in the `HourlyPayCalculator` class.
 
 Sometimes we get "clever" about where to put certain functionality.
 We'll put it in a function that's convenient for us, but not necessarily intuitive to the reader.

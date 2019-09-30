@@ -45,7 +45,7 @@ Nope, not there. But then where? Look closely at class `Employee`. It implements
 
 This is a hideous practice! The constants are hidden at the top of the inheritance hierarchy.
 Ick!
-Don't use inheritance as a way to cheat the scoping rules of the langauge.
+Don't use inheritance as a way to cheat the scoping rules of the language.
 Use a static import instead.
 
 ```java

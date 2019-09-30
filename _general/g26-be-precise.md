@@ -14,10 +14,10 @@ Know why you have made it and how you will deal with any exceptions.
 Don't be lazy about the precision of your decisions.
 If you decide to call a function that might return `null`, make sure you check for `null`.
 If you query for what you think is the only record in the database, make sure your code checks to be sure there aren't others.
-If you need to deal with currency, use integers[^11] and deal with rounding appropiately.
+If you need to deal with currency, use integers[^11] and deal with rounding appropriately.
 If there is the possibility of concurrent update, make sure you implement some kind of locking mechanism.
 
-Ambiguiities and imprecision in code are either a result of disagreements or laziness.
+Ambiguities and imprecision in code are either a result of disagreements or laziness.
 In either case they should be eliminated.
 
 [^11]: Or better yet, a `Money` class that uses integers.
