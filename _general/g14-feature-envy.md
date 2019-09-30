@@ -22,7 +22,7 @@ public class HourlyPayCalculator {
 }
 ```
 
-The `caluclateWeeklyPay` method reaches into the `HourlyEmployee` object to get the data on which it operates.
+The `calculateWeeklyPay` method reaches into the `HourlyEmployee` object to get the data on which it operates.
 The `calculateWeeklyPay` method *envies* the scope of the `HourlyEmployee`.
 It "wishes" that it could be inside `HourlyEmployee`.
 
@@ -50,7 +50,7 @@ public class HourlyEmployeeReport {
 ```
 
 Clearly, the `reportHours` method envies the `HourlyEmployee` class. On the other hand, we don't want `HourlyEmployee` to have to know about the format of the report.
-Moving that format string into the `Hourlyemployee` class would violate several principles of object oriented design[^7].
+Moving that format string into the `HourlyEmployee` class would violate several principles of object oriented design[^7].
 It would couple `HourlyEmployee` to the format of the report, exposing it to changes in that format.
 
 [^6]: [Refactoring].

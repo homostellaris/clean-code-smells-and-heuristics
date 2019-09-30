@@ -47,5 +47,5 @@ Each function produces a result that the next function needs, so there is no rea
 You might complain that this increases the complexity of the functions, and you'd be right.
 But that extra syntactic complexity exposes the true temporal complexity of the situation.
 
-Note that I left the instance variables in place. I presume taht they are needed by private methods in the class.
+Note that I left the instance variables in place. I presume that they are needed by private methods in the class.
 Even so, I want the arguments in place to make the temporal coupling explicit.

@@ -26,7 +26,7 @@ The functions all seem appropriate.
 Indeed, for many applications they are.
 But now consider an application in which some modems aren't connected by dialing.
 Rather they are connected permanently by hard wiring them together (think of the cable modems that provide Internet access to most homes nowadays).
-Perhaps some are connected by sending port number to a swithc over a USB connection.
+Perhaps some are connected by sending port number to a switch over a USB connection.
 Clearly the notion of phone numbers is at the wrong level of abstraction.
 A better naming strategy for this scenario might be:
 

@@ -6,7 +6,7 @@ order: 25
 This is probably one of the oldest rules in software development.
 I remember reading it in the late sixties in introductory COBOL, FORTRAN, and PL/I manuals.
 In general it is a bad idea to have raw numbers in your code.
-you should hide them behing well-named constants.
+you should hide them behind well-named constants.
 
 For example, the number 86,400 should be hidden behind the constant `SECONDS_PER_DAY`.
 If you are printing 55 lines per page, then the constant 55 should be hidden behind the constant `LINES_PER_PAGE`.

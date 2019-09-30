@@ -4,7 +4,7 @@ order: 34
 ---
 The statements within a function should all be written at the same level of abstraction, which should be one level below the operation described by the name of the function.
 This may be the hardest of these heuristics to interpret and follow.
-Though the idea is plain enohgh, humans are just far too good at seamlessly mixing levels of abstraction.
+Though the idea is plain enough, humans are just far too good at seamlessly mixing levels of abstraction.
 Consider, for example, the following code taken from FitNesse:
 
 ```java
@@ -27,11 +27,11 @@ This method is mixing at least two levels of abstraction.
 The first is the notion that a horizontal rule has a size.
 The second is the syntax of the `HR` tag itself.
 This code comes from the `HruleWidget` module in FitNesse.
-This module detects a row of four or more dashes and converts it into the appropiate HR tag.
+This module detects a row of four or more dashes and converts it into the appropriate HR tag.
 The more dashes, the larger the size.
 
 I refactored this but of code as follows.
-Note that I changed the name of the sizxe field to reflect its true purpose.
+Note that I changed the name of the size field to reflect its true purpose.
 It held the number of extra dashes.
 
 ```java

@@ -4,7 +4,7 @@ title: Artificial Coupling
 order: 13
 ---
 Things that don't depend upon each other should not be artificially coupled.
-For example, general `enums` should not be contained within more specific classes because this forces the whole application to know about hese more specific classes.
+For example, general `enums` should not be contained within more specific classes because this forces the whole application to know about these more specific classes.
 The same goes for general purpose `static` functions being declared in specific classes.
 
 In general an artificial coupling is a coupling between two modules that serves no direct purpose.

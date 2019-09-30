@@ -33,7 +33,7 @@ Consider this variation on the payroll code:
         return 1.0;
       }
     },
-    LEUTENANT_JOURNEYMAN {
+    LIEUTENANT_JOURNEYMAN {
       public double rate() {
         return 1.2;
       }
@@ -51,3 +51,4 @@ Consider this variation on the payroll code:
 
     public abstract double rate();
   }
+```

@@ -6,7 +6,7 @@ for (let i = 0; i < smells.length; i++) {
   appendToSmellHeader(smell, copyMarkdownElement);
 }
 
-setupClipboard()
+setupClipboard();
 
 function setupClipboard () {
   const clipboard = new ClipboardJS('.copy-markdown-button');

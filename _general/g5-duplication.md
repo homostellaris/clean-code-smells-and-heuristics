@@ -4,7 +4,7 @@ title: Duplication
 order: 5
 ---
 This is one of the most important rules in this book, and you should take it very seriously.
-Veritually every author who writes about software design mentions this rule.
+Virtually every author who writes about software design mentions this rule.
 Dave Thomas and Andy Hunt called it the DRY[^1] principle (Don't Repeat Yourself).
 Kent Beck made it one of the core principles of Extreme Programming and call it: "Once, and only once."
 Ron Jeffries ranks this rule second, just below getting all the tests to pass.

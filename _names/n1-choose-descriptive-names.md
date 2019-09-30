@@ -7,14 +7,14 @@ Don't be too quick to choose a name.
 ake sure the name is descriptive.
 Remember that meanings tend to drift as software evolves, so frequently reevaluate the appropriateness of the names you choose.
 
-This is not just a "feel-good" recommmendation.
+This is not just a "feel-good" recommendation.
 Names in software are 90 percent of what make software readable.
 You need to take the time to choose them wisely and keep them relevant.
 Names are too important to treat carelessly.
 
 Consider the code below.
 What does it do?
-If I show you the code with well-chosen names, it will make perfect sense to you, but like this it's just a hodge-podge of symbols and magic numbers.
+If I show you the code with well-chosen names, it will make perfect sense to you, but like this it's just a hodgepodge of symbols and magic numbers.
 
 ```java
   public int x() {
@@ -42,7 +42,7 @@ If I show you the code with well-chosen names, it will make perfect sense to you
 Here is the code the way it should be written.
 This snippet is actually less complete than the one above.
 Yet you can infer immediately what it is trying to do, and you could very likely write the missing functions based on that inferred meaning.
-That magic numbers are no longer magic, and the structure of the algorithm is complellingly descriptive.
+That magic numbers are no longer magic, and the structure of the algorithm is compellingly descriptive.
 
 ```java
   public int score() {
@@ -67,7 +67,7 @@ That magic numbers are no longer magic, and the structure of the algorithm is co
 
 The power of carefully chosen names is that they overload the structure of the code with description.
 That overloading sets the readers' expectations about what the other functions in the module do.
-You can infer the implementation of `isStike()` by looking at the code above.
+You can infer the implementation of `isStrike()` by looking at the code above.
 When you read the `isStrike` method, it will be "pretty much what you expected."[^13]
 
 ```java

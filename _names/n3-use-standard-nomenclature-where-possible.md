@@ -12,7 +12,7 @@ In Java, for example, functions that convert objects to String representations a
 It is better to follow conventions like these than to invent your own.
 
 Teams will often invent their own standard system of names for a particular project.
-Eric Evans refers to this as *ubiqutous language* for the project.[^14]
+Eric Evans refers to this as *ubiquitous language* for the project.[^14]
 Your code should use the terms from this language extensively.
 In short, the more you can use names that are overloaded with special meanings that are relevant to your project, the easier it will be for readers to know what your code is talking about.
 
