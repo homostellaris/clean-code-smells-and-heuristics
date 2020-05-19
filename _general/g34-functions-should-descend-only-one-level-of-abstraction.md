@@ -1,3 +1,4 @@
+---
 code: G34
 title: Functions Should Descend Only One Level of Abstraction
 order: 34
