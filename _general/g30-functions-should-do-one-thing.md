@@ -32,7 +32,7 @@ This code would be better written as:
 
   private void payIfNecessary(Employee e) {
     if (e.isPayDay())
-      calculateAndDeliveryPay(e);
+      calculateAndDeliverPay(e);
   }
 
   private void calculateAndDeliverPay(Employee e) {
