@@ -37,7 +37,7 @@ This code would be better written as:
 
   private void calculateAndDeliverPay(Employee e) {
     Money pay = e.calculatePay();
-    e.deliveryPay();
+    e.deliveryPay(pay);
   }
 ```
 
