@@ -17,7 +17,7 @@ Consider the `Modem` interface below:
     boolean disconnect();
     boolean send(char c);
     char recv();
-    String getConnectedPhoneNumber()l
+    String getConnectedPhoneNumber();
   }
 ```
 
