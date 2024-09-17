@@ -2,3 +2,6 @@
 
 # Jekyll
 _site/
+
+# MacOS
+.DS_Store

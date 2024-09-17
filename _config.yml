@@ -1,24 +1,10 @@
 collections:
   comments:
     output: true
-  environment:
-    output: true
-  functions:
-    output: true
-  general:
-    output: true
-  java:
-    output: true
-  names:
-    output: true
-  tests:
-    output: true
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
     values:
       layout: "smell"
 description: "A linkable reference of code smells and heuristics for better code reviews."
-google_analytics: UA-141700461-1
 title: "Clean Code: Smells and Heuristics"
